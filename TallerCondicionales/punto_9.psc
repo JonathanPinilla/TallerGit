@@ -16,6 +16,7 @@ Proceso punto_9
 	Escribir "1. Calcular area de un rectangulo (incluye cuadrados)";
 	Escribir "2. Calcular area de un triángulo";
 	Escribir "3. Calcular area de un circulo";
+	Escribir "4. Calcular area de un trapecio";
 	Leer opcion;
 	Limpiar Pantalla;
 	
@@ -92,5 +93,16 @@ Proceso punto_9
 			//cálculo del area
 			area <- PI*(radio^2);
 			Escribir "El area del circulo de radio ",radio," es: ",area," metros cuadrados (m^2)";
+		4: //Trapecio
+			Escribir "---Area de un trapecio---";
+			Escribir "Digite la base mas ancha en metros (m)";
+			leer anchura;
+			Escribir "Digite la base pequeña en metros (m)";
+			leer lado2;
+			Escribir "Digite la altura del trapecio en metros (m)";
+			leer altura;
+			area <- ((anchura + lado2)*altura)/2;
+			Escribir "El area de un trapecio con lado ancho de ",anchura," lado pequeño de ",lado2," y altura ",altura," es de: ",area," metros cuadrados (m^2)";
+			
 	FinSegun
 FinProceso

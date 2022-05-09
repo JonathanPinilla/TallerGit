@@ -61,23 +61,38 @@ Proceso punto_10
 					Escribir usuario1;
 					Escribir "Escriba la cantidad a ingresar";
 					Leer ingresaRetira;
-					cantidadU1 <- cantidadU1+ingresaRetira;
-					Escribir "Ingresó: ",ingresaRetira;
-					Escribir "Saldo final despues de la operación: ",cantidadU1;
+					Si ingresaRetira > 0 Entonces
+						cantidadU1 <- cantidadU1+ingresaRetira;
+						Escribir "Ingresó: ",ingresaRetira;
+						Escribir "Saldo final despues de la operación: ",cantidadU1;
+					SiNo
+						Escribir "El valor ingresado es incorrecto";
+					FinSi
+					
 				2:
 					Escribir usuario2;
 					Escribir "Escriba la cantidad a ingresar";
 					Leer ingresaRetira;
-					cantidadU2 <- cantidadU2+ingresaRetira;
-					Escribir "Ingresó: ",ingresaRetira;
-					Escribir "Saldo final despues de la operación: ",cantidadU2;
+					Si ingresaRetira > 0 Entonces
+						cantidadU2 <- cantidadU2+ingresaRetira;
+						Escribir "Ingresó: ",ingresaRetira;
+						Escribir "Saldo final despues de la operación: ",cantidadU2;
+					SiNo
+						Escribir "El valor ingresado es incorrecto";
+					FinSi
+					
 				3:
 					Escribir usuario3;
 					Escribir "Escriba la cantidad a ingresar";
 					Leer ingresaRetira;
-					cantidadU3 <- cantidadU3+ingresaRetira;
-					Escribir "Ingresó: ",ingresaRetira;
-					Escribir "Saldo final despues de la operación: ",cantidadU3;
+					Si ingresaRetira > 0 Entonces
+						cantidadU3 <- cantidadU3+ingresaRetira;
+						Escribir "Ingresó: ",ingresaRetira;
+						Escribir "Saldo final despues de la operación: ",cantidadU3;
+					SiNo
+						Escribir "El valor ingresado es incorrecto";
+					FinSi
+					
 			FinSegun
 		3:	//Retiro
 			Escribir "Elija el usuario que desea retirar dinero";
@@ -92,23 +107,36 @@ Proceso punto_10
 					Escribir usuario1;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					cantidadU1 <- cantidadU1-ingresaRetira;
-					Escribir "Retiró: ",ingresaRetira;
-					Escribir "Saldo final despues de la operación: ",cantidadU1;
+					Si ingresaRetira > 0 Entonces
+						cantidadU1 <- cantidadU1-ingresaRetira;
+						Escribir "Retiró: ",ingresaRetira;
+						Escribir "Saldo final despues de la operación: ",cantidadU1;
+					SiNo
+						Escribir "El valor ingresado es incorrecto";
+					FinSi
 				2:
 					Escribir usuario2;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					cantidadU2 <- cantidadU2-ingresaRetira;
-					Escribir "Retiró: ",ingresaRetira;
-					Escribir "Saldo final despues de la operación: ",cantidadU2;
+					Si ingresaRetira > 0 Entonces
+						cantidadU2 <- cantidadU2-ingresaRetira;
+						Escribir "Retiró: ",ingresaRetira;
+						Escribir "Saldo final despues de la operación: ",cantidadU2;
+					SiNo
+						Escribir "El valor ingresado es incorrecto";
+					FinSi
+					
 				3:
 					Escribir usuario3;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					cantidadU3 <- cantidadU3-ingresaRetira;
-					Escribir "Retiró: ",ingresaRetira;
-					Escribir "Saldo final despues de la operación: ",cantidadU3;
+					Si ingresaRetira > 0 Entonces
+						cantidadU3 <- cantidadU3-ingresaRetira;
+						Escribir "Retiró: ",ingresaRetira;
+						Escribir "Saldo final despues de la operación: ",cantidadU3;
+					SiNo
+						Escribir "El valor ingresado es incorrecto";
+					FinSi
 			FinSegun
 	FinSegun
 	
