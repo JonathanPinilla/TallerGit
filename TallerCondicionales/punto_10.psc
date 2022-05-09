@@ -107,35 +107,35 @@ Proceso punto_10
 					Escribir usuario1;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					Si ingresaRetira > 0 Entonces
+					Si ingresaRetira > 0 Y ingresaRetira <= cantidadU3 Entonces
 						cantidadU1 <- cantidadU1-ingresaRetira;
 						Escribir "Retiró: ",ingresaRetira;
 						Escribir "Saldo final despues de la operación: ",cantidadU1;
 					SiNo
-						Escribir "El valor ingresado es incorrecto";
+						Escribir "El valor ingresado es incorrecto o es mayor al que se tiene en la cuenta";
 					FinSi
 				2:
 					Escribir usuario2;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					Si ingresaRetira > 0 Entonces
+					Si ingresaRetira > 0 Y ingresaRetira <= cantidadU3 Entonces
 						cantidadU2 <- cantidadU2-ingresaRetira;
 						Escribir "Retiró: ",ingresaRetira;
 						Escribir "Saldo final despues de la operación: ",cantidadU2;
 					SiNo
-						Escribir "El valor ingresado es incorrecto";
+						Escribir "El valor ingresado es incorrecto o es mayor al que se tiene en la cuenta";
 					FinSi
 					
 				3:
 					Escribir usuario3;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					Si ingresaRetira > 0 Entonces
+					Si ingresaRetira > 0 Y ingresaRetira <= cantidadU3 Entonces
 						cantidadU3 <- cantidadU3-ingresaRetira;
 						Escribir "Retiró: ",ingresaRetira;
 						Escribir "Saldo final despues de la operación: ",cantidadU3;
 					SiNo
-						Escribir "El valor ingresado es incorrecto";
+						Escribir "El valor ingresado es incorrecto o es mayor al que se tiene en la cuenta";
 					FinSi
 			FinSegun
 	FinSegun
