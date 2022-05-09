@@ -107,7 +107,7 @@ Proceso punto_10
 					Escribir usuario1;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					Si ingresaRetira > 0 Y ingresaRetira <= cantidadU3 Entonces
+					Si ingresaRetira > 0 Y ingresaRetira <= cantidadU1 Entonces
 						cantidadU1 <- cantidadU1-ingresaRetira;
 						Escribir "Retiró: ",ingresaRetira;
 						Escribir "Saldo final despues de la operación: ",cantidadU1;
@@ -118,7 +118,7 @@ Proceso punto_10
 					Escribir usuario2;
 					Escribir "Escriba la cantidad a retirar";
 					Leer ingresaRetira;
-					Si ingresaRetira > 0 Y ingresaRetira <= cantidadU3 Entonces
+					Si ingresaRetira > 0 Y ingresaRetira <= cantidadU2 Entonces
 						cantidadU2 <- cantidadU2-ingresaRetira;
 						Escribir "Retiró: ",ingresaRetira;
 						Escribir "Saldo final despues de la operación: ",cantidadU2;
